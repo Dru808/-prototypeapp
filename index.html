@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Life's a beach</title>
+</head>
+<body>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Life's a beach!</legend>
+
+<!-- Button Drop Down -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="buttondropdown">What is your activity?</label>
+  <div class="col-md-8">
+    <div class="input-group">
+      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="What is your activity?" type="text" required="">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          activity
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Surfing</a></li>
+          <li><a href="#">Sunbathing</a></li>
+          <li><a href="#">Swimming</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Zipcode</label>
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md" required="">
+  <span class="help-block">help</span>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="">Time of Day</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="-0">
+      <input type="checkbox" name="" id="-0" value="6AM - 12PM">
+      6AM - 12PM
+    </label>
+  </div>
+  <div class="checkbox">
+    <label for="-1">
+      <input type="checkbox" name="" id="-1" value="12PM - 6PM">
+      12PM - 6PM
+    </label>
+  </div>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="">Single Button</label>
+  <div class="col-md-4">
+    <button id="" name="" class="btn btn-info">Submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</body>
+</html>
